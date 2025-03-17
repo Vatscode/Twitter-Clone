@@ -27,12 +27,12 @@ const ProfilePage = () => {
 
 	const user = {
 		_id: "1",
-		fullName: "John Doe",
-		username: "johndoe",
+		fullName: "Code Master",
+		username: "icancode",
 		profileImg: "/avatars/boy2.png",
 		coverImg: "/cover.png",
-		bio: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-		link: "https://youtube.com/@asaprogrammer_",
+		bio: "I love to sit down and solve complex problems.",
+		link: "https://github.com/Vatscode",
 		following: ["1", "2", "3"],
 		followers: ["1", "2", "3"],
 	};
@@ -145,12 +145,12 @@ const ProfilePage = () => {
 											<>
 												<FaLink className='w-3 h-3 text-slate-500' />
 												<a
-													href='https://youtube.com/@asaprogrammer_'
+													href='https://github.com/Vatscode'
 													target='_blank'
 													rel='noreferrer'
 													className='text-sm text-blue-500 hover:underline'
 												>
-													youtube.com/@asaprogrammer_
+													github.com/Vatscode
 												</a>
 											</>
 										</div>
