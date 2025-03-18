@@ -42,7 +42,7 @@ function App() {
   return (
     <div className="flex max-w-6xl mx-auto">
       <Routes>
-        <Route path="/" element={<SignUpPageWithNoSidebar />} /> {/* HomePage with no sidebar */}
+        <Route path="/" element={<HomePage />} /> {/* HomePage with no sidebar */}
         <Route path="/login" element={<LoginPageWithNoSidebar />} /> {/* Login page with no sidebar */}
         <Route path="/signup" element={<SignUpPageWithNoSidebar />} /> {/* Signup page with no sidebar */}
         <Route path="/notifications" element={<PageWithLayout Component={NotificationPage} />} />
